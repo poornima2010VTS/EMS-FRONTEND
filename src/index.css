@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Active tab */
+.nav-item.active {
+  background: #3b82f6;
+  font-weight: bold;
+}
+
+/* Hover */
+.nav-item:hover {
+  background: #1e293b;
+}
+
+@keyframes gradientMove {
+  0% { transform: translate(0%, 0%); }
+  50% { transform: translate(-25%, -25%); }
+  100% { transform: translate(0%, 0%); }
+}
+
+.nav-link:hover {
+  background: rgba(255, 255, 255, 0.1);
+  color: white !important;
+  transform: translateX(5px);
+}
+
+.nav-link.active {
+  background: linear-gradient(90deg, #3b82f6, #6366f1);
+  color: white !important;
+  font-weight: bold;
+}
