@@ -6,7 +6,8 @@ import Payroll from "./pages/Payroll";
 import Login from "./pages/Login";
 import Dashboard from "./pages/Dashboard";
 import Employees from "./pages/Employees";
-import Leave from "./pages/Leave";
+// import Leave from "./pages/Leave";
+import Leave from "./pages/leave";
 import LeaveCalendar from "./pages/LeaveCalendar";
 
 const PrivateRoute = ({ children }) => {
